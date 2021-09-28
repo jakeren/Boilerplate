@@ -54,6 +54,13 @@ For example, to add a new migration from the root folder:
 
 dotnet ef migrations add "EfCoreApplicationDbContext" --project src\Boilerplate.Infrastructure --startup-project src\Boilerplate.Api --output-dir Persistence\Migrations
 
+## Unit Tests
+
+- XUnit
+- Moq
+- FluentAssertions 
+- AutoFixture
+
 ## Roadmap
 If you have ideas for releases in the future, it is a good idea to list them in the README.
 
